@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.8vw;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 2%;
+}
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.header{
+    background-color: beige;
+    border: 1px burlywood solid;
+    font-size: 1vw;
+    color: black;
+    border-radius: 5px;
+}
+.header h1{
+    font-size: 1.2vw;
+    margin: 20px;
+}
+.menu{
+    background-color:rgb(23, 16, 39);
+    color: white;
+    border-radius: 5px;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+.footer{
+    background-color: beige;
+    border: 1px burlywood solid;
+    font-size: 0.8vw;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+}
+.boxtieude{
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border: 1px #CCC solid;
+
+}
+.boxcontent{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+.boxcontent2{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    background-color: #eee;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+/* banner */
+.banner{
+    width:100%;
+    text-align:center;
+    position:relative;
+}
+.banner img{
+    width:100%;
+    height:300px;
+}
+.pre, .next{
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    padding:16px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease-in-out;
+    border-radius:0 3px 3px 0;
+    border:none;
+    
+}
+.pre:hover, .next:hover{
+    background-color:rgba(0,0,0,0.8);
+}
+.next{
+    right:0;
+    border-radius:3px 0 0 3px;
+}
+.pre{
+    left:0;
+    border-radius:0 3px 3px 0;
+}
+/* sản phẩm trong trang chủ */
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.boxsp .img{
+    min-height: 230px;
+    text-align: center;
+}
+.img img{
+    height: 220px;
+}
+.boxsp a{
+    text-decoration:none;
+    color:green;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.boxsp p{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.menu ul{
+    padding: 0px 15px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    color: #CCC;
+    text-decoration: none;
+    transition: 0.05s;
+}
+.menu ul li a:hover{
+    color: white;
+    font-size: 1vw;
+}
+.boxsp .btnaddtocart input[type="submit"]{
+    border-radius: 5px;
+    margin: 10px 20px;
+    background-color:white;
+    border-radius: 1px #dadada solid;
+}
+.boxsp .btnaddtocart input[type="submit"]:hover{
+    background-color: #CCC;
+}
+/* box tài khoản */
+.formtaikhoan{
+    line-height: 150%;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="email"],
+.formtaikhoan input[type="password"],
+.formcontent input[type="text"]{
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+.formtaikhoan input[type="submit"],
+.formtaikhoan input[type="reset"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color:white;
+    border-radius: 1px #dadada solid;
+}
+.formtaikhoan input[type="submit"]:hover,
+.formtaikhoan input[type="reset"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover{
+    background-color: #CCC;
+}
+.formtaikhoan li a:hover{
+    color: #093;
+    text-decoration: none;
+}
+/* danh mục */
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #eee;
+    border-bottom: 1px #CCC solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color: #CCC;
+}
+
+.boxtieude input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+}
+.top img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #CCC solid;
+}
+.top a{
+    color: #666;
+    text-decoration: none;
+}
+.top a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+/* admin */
+.headeradmin{
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.headeradmin h1{
+    font-size: 2vw;
+}
+.formtieude{
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.formcontent{
+    padding: 20px 0px;
+}
+.formdsloai table{
+    width: 100%;
+    border-collapse:collapse;
+}
+.formdsloai table th{
+    padding: 20px;
+    background-color: #CCC;
+}
+.formdsloai table td{
+    padding: 10px 20px;
+    border: 1px #999 solid;
+}
+
+.spct{
+    text-align: center;
+}
+.spct img{
+    width: 300px;
+}
+.thongbao{
+    color:red;
+}
+/* cart */
+.cart table{
+    width: 100%;
+    border-collapse:collapse;
+}
+.cart table th{
+    padding: 20px;
+    background-color: #CCC;
+}
+.cart table td{
+    padding: 10px 20px;
+    border: 1px #999 solid;
+}
+.billform{
+    line-height: 150%;
+}
+.billform input[type="text"]{
+    width: 500px;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.bill input[type="submit"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color:white;
+    border-radius: 1px #dadada solid;
+    margin-right: 20px;
+}
+.bill input[type="text"]:hover,
+.bill input[type="submit"]:hover{
+    background-color: #CCC;
+}
